@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height:100vh;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(4,112,189,1) 68%, rgba(4,115,191,1) 69%, rgba(4,121,195,1) 71%, rgba(4,130,201,1) 74%, rgba(0,212,255,1) 100%);
+             display:flex;
+             justify-content: center;
+             align-items: center;
+        }
+        .card{
+            width: 360px;
+            height:600px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .card img{
+            width:357px;
+            height: 250px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            
+
+        }
+        .textbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding-left:  20px;
+            padding-right:  20px;
+            text-align: center;
+        }
+        #amountbox{
+            width:82%;
+            height:10%;
+            background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(187,72,139,1) 73%, rgba(233,64,98,1) 100%);
+border-radius: 10px;;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right:20px;
+            padding-left: 20;
+            
+        }
+        #leftbox{
+            width:fit-content;
+            display: flex;
+            gap: 15px;
+
+            
+        }
+        .imgbox img{
+            width: 50px;
+            height: 40px;
+            border-radius: 10px;
+            padding-left: 10px;
+
+        }
+
+        #paymentbutton{
+            width:80%;
+            height:9%;
+           background-color: rgb(90, 90, 179); 
+            border-radius: 10px;
+            box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+
+        }
+        .cancelbox{
+            text-decoration: none;
+            color:rgb(68, 58, 58);
+            font-weight: bold;
+            font-size:x-large;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://greencloudvps.com/greencloudvps/wp-content/uploads/2022/04/computer-networking-1-768x512.jpg">
+            <div class="textbox">
+                <h2>Order Summary</h2> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corporis aspernatur at quisquam quas aperiam minus repellat placeat sed doloribus!</p>
+            </div>
+            <div id="amountbox">
+                <div id="leftbox">
+                <div class="imgbox">
+                    <img src="https://wallpaperaccess.com/full/3023972.jpg" >
+                </div>
+                <div id="textamountbox">
+                    <p>Amount</p>
+                    <p>$99.9/year</p>
+
+                </div>
+            </div>
+                <div class="rightbox">
+                    <a href="#">Change</a>
+                </div>
+            </div>
+            <button id="paymentbutton">Proceed to pay</button>
+            <div class="canclebox">
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

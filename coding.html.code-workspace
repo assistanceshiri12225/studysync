@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "coding",
+			"path": "../coding"
+		},
+		{
+			"name": "project 1 html",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project 1 html",
+		"liveServer.settings.port": 5501
+	}
+}
